@@ -7,7 +7,7 @@
  * AlicFeng | a@samego.com
  */
 
-namespace Samego\Migrate\Schema\Grammars;
+namespace AlicFeng\Migrate\Schema\Grammars;
 
 use Illuminate\Database\Connection;
 use Illuminate\Database\Schema\Blueprint;

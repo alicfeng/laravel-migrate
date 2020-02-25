@@ -7,12 +7,12 @@
  * AlicFeng | a@samego.com
  */
 
-namespace Samego\Migrate\Schema;
+namespace AlicFeng\Migrate\Schema;
 
+use AlicFeng\Migrate\Schema\Grammars\MySqlGrammar;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Schema\Builder;
 use Illuminate\Support\Facades\Facade;
-use Samego\Migrate\Schema\Grammars\MySqlGrammar;
 
 /**
  * @method static \Illuminate\Database\Schema\Builder create(string $table, \Closure $callback)

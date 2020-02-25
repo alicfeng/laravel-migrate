@@ -16,6 +16,7 @@
       "php-cs-fixer fix tests"
     ]
   },
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "AlicFeng\\": "src/"
