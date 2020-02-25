@@ -1,0 +1,29 @@
+{
+  "name": "alicfeng/laravel-migrate",
+  "license": "MIT",
+  "description": "laravel migrate enhance extend",
+  "type": "library",
+  "authors": [
+    {
+      "name": "AlicFeng",
+      "email": "a@samego.com"
+    }
+  ],
+  "require": {},
+  "scripts": {
+    "php-cs": [
+      "php-cs-fixer fix src",
+      "php-cs-fixer fix tests"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "AlicFeng\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
