@@ -23,10 +23,12 @@
 ###### `Schema` 支持对表名注释 与 支持对表自增字段设定梯度
 ```php
 use Illuminate\Database\Schema\Blueprint;
+use AlicFeng\Migrate\Schema\Schema;
 
 Schema::create('users', function (Blueprint $table) {
     // 注明表注释
-    $table->commet = '用户基准表';
+    $table->comment = '用户基准表';
+    
     // 设定自增字段梯度
     $table->auto_increment = 2;
 });
@@ -55,7 +57,7 @@ composer require "alicfeng/laravel-migrate" -vvv
 [
     'aliases'=>[
         //'Schema' => Illuminate\Support\Facades\Schema::class,
-        'Schema' => Samego\Migrate\Schema\Schema::class,
+        'Schema'   => AlicFeng\Migrate\Schema\Schema::class,
     ]
 ];
 
