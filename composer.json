@@ -9,7 +9,9 @@
       "email": "a@samego.com"
     }
   ],
-  "require": {},
+  "require": {
+    "phpunit/phpunit": "^7.0"
+  },
   "scripts": {
     "php-cs": [
       "php-cs-fixer fix src",
@@ -25,6 +27,12 @@
   "autoload-dev": {
     "psr-4": {
       "Tests\\": "tests/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
     }
   }
 }
